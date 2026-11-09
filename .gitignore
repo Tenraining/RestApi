@@ -1,0 +1,52 @@
+# ==========================================
+# DMIT2015 Assignment 6 - Git Ignore Rules
+# Applies to both Maven projects
+# ==========================================
+
+### Maven / Java Build Output ###
+target/
+build/
+*.class
+
+# Keep Maven Wrapper files
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### Eclipse ###
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+### NetBeans ###
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+### Visual Studio Code ###
+.vscode/
+
+### Operating System Files ###
+.DS_Store
+Thumbs.db
+
+### Temporary Files ###
+*.log
+*.tmp
+*.swp
+*~
+
+### Local Secrets and Environment Files ###
+.env
+.env.*
+!.env.example
